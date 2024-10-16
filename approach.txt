@@ -1,0 +1,12 @@
+Questions
+1. What is the average profit margin of all companies? 
+2. which company has best and worst profit margin ?
+3. Rate the companies based on its profit margin 
+
+
+APPROACH
+1. To solve this problem approch would be identifing the intent of the user query and if it has logical intent like average, max ,min etc then implement a single query based LLM flow where we extract the query in large mode and ask the llm again to give response. 
+
+2. Another approch could be this. Llama index have different new feature where one feature is multidocument agents. Where they provide different functionality. 
+    LINK : https://docs.llamaindex.ai/en/stable/examples/agent/multi_document_agents/
+    This can be usefull in our current problem.
