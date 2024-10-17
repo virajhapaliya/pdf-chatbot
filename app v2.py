@@ -20,7 +20,7 @@ Chat History:
 {chat_history}
 Follow Up Input: {question}
 Standalone question:"""
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API KEY HERE"
 
 
 CUSTOM_QUESTION_PROMPT = PromptTemplate.from_template(custom_template)
